@@ -1,0 +1,9 @@
+# 依赖
+PySide6>=6.6
+pyqtgraph>=0.13
+numpy>=1.24
+psutil>=5.9
+Pillow>=10
+
+# 打包（可选）
+# pyinstaller>=6.0

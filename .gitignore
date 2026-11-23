@@ -1,0 +1,23 @@
+# 编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 打包输出
+build/
+dist/
+
+# 录制数据（绝不入库）
+sessions/
+*.tmp.csv
+*.log
+
+# 本地环境
+.venv/
+venv/
+.env
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
