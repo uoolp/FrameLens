@@ -55,7 +55,7 @@
 
 ### 方式一：下载 Release（推荐）
 
-到 [Releases](../../releases) 下载最新的 `FrameLens.zip`，解压后直接运行 `FrameLens.exe`。
+到 [Releases](../../releases) 下载源码包，解压后按下面的源码方式运行；想要免安装的 EXE，用第四种方式自行打包即可。
 首次启动会弹出提权确认，并让你选择一个要监控的程序。
 
 ### 方式二：源码运行
