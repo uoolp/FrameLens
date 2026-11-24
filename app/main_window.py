@@ -162,12 +162,13 @@ class KpiCard(QFrame):
 
 class MainWindow(QWidget):
     def __init__(self, store, sessions_dir, target_name, collector=None,
-                 on_change_target=None):
+                 on_change_target=None, controller=None):
         super().__init__()
         self.store = store
         self.sessions_dir = sessions_dir
         self.target_name = target_name
-        self.collector = collector
+        # 新装配用 controller=（CollectorController），旧调用仍可传 collector=
+        self.collector = controller if controller is not None else collector
         self.on_change_target = on_change_target
         self._app_start = time.time()
         self.setWindowTitle("性能监控台")
